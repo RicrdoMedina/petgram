@@ -1,0 +1,18 @@
+import styled, {css} from 'styled-components'
+
+export const Container = styled.header`
+  width: 100%;
+  display: block;
+  height: 65px;
+  position: relative;
+  margin-bottom: 1em;
+  ${props => props.fixed && css`
+    {
+      position: fixed;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.92);
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+    }
+  `}
+`

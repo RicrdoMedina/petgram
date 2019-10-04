@@ -1,0 +1,71 @@
+{
+  "name": "curso-platzi-react-avanzado",
+  "version": "1.0.0",
+  "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
+  "main": "index.js",
+  "scripts": {
+    "now-build": "npm run build",
+    "build": "webpack",
+    "lint": "standard",
+    "dev": "webpack-dev-server --history-api-fallback",
+    "test": "cypress open",
+    "serve:dev": "webpack --mode 'development' && npx serve dist -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/plugin-proposal-class-properties": "7.3.0",
+    "babel-eslint": "10.0.2",
+    "babel-loader": "8.0.6",
+    "file-loader": "4.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "standard": "13.1.0",
+    "url-loader": "2.1.0",
+    "webpack": "4.39.1",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.8.0",
+    "webpack-pwa-manifest": "4.0.0",
+    "wepack-cli": "0.0.1-security",
+    "workbox-webpack-plugin": "4.3.1"
+  },
+  "dependencies": {
+    "@reach/router": "1.2.1",
+    "apollo-boost": "0.4.4",
+    "graphql": "14.4.2",
+    "intersection-observer": "0.7.0",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-apollo": "3.0.1",
+    "react-dom": "16.9.0",
+    "react-helmet": "5.2.1",
+    "react-icons": "3.7.0",
+    "react-items-carousel": "2.3.7",
+    "react-measure": "2.3.0",
+    "react-motion": "0.5.2",
+    "styled-components": "4.3.2"
+  },
+  "standard": {
+    "ignore": [
+      "/api/**"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
