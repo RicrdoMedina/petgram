@@ -6,6 +6,7 @@ export const Container = styled.header`
   height: 65px;
   position: relative;
   margin-bottom: 1em;
+  max-width: 500px;
   ${props => props.fixed && css`
     {
       position: fixed;
