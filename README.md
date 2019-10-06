@@ -2,7 +2,7 @@
 
 Este repositorio contiene una app sencilla para ver fotos de mascotas, desarrollada con react-hooks.
 
-![Captura de la App](./readme-static/captura.gif)
+![Captura de la App](./readme-static/captura.jpg)
 
 [Ver la aplicación](https://react-advanced-rcrdmedina.ricrdomedina.now.sh/)
 
