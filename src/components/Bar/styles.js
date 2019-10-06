@@ -11,6 +11,7 @@ export const Content = styled.div`
   position: absolute;
   left: 1.6em;
   bottom: 1.1em;
+  z-index: 100;
 `
 export const Span = styled.span`
   display: block;
