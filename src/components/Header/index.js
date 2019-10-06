@@ -21,12 +21,12 @@ export const Header = () => {
     return () => document.removeEventListener('scroll', onScroll)
   }, [showFixed])
 
-  const renderList = (fixed) => (
-    <Container fixed={fixed}>
+  const renderList = (fixed) => {
+    return (<Container fixed={fixed}>
       { fixed && <Bar/>}
       <Logo fixed={fixed}/>
-    </Container>
-  )
+    </Container>)
+  }
 
   return (
     <Fragment>
