@@ -6,12 +6,15 @@ export const Nav = styled.nav`
   z-index: 1000;
   max-width: 500px;
   height: 100vh;
-  top: 65px;
+  top: 128px;
   left: 0;
   padding: 1em;
-  background: rgba(0, 0, 0, 0.94);
+  background: rgba(0,0,0,0.94);
   text-align: center;
-  display:none;
+  display: none;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   ${props => props.showMenu && css`
     {
       display: block;

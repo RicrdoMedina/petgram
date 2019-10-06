@@ -2,7 +2,9 @@ import styled, {css} from 'styled-components'
 
 export const Container = styled.header`
   width: 100%;
-  display: block;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   height: 65px;
   position: relative;
   margin-bottom: 1em;
