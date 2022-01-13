@@ -11,14 +11,14 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
 importScripts(
-  "/precache-manifest.b21e76a534a8649bb77b64e24f9893be.js"
+  "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js"
 );
 
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
+importScripts("/precache-manifest.b21e76a534a8649bb77b64e24f9893be.js");
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
     self.skipWaiting();
   }
 });
@@ -31,4 +31,8 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/https:\/\/petgram-api-ricrdomedina.now.sh/, new workbox.strategies.NetworkFirst({ "cacheName":"api", plugins: [] }), 'GET');
+workbox.routing.registerRoute(
+  /https:\/\/petgram-server-ricrdomedina-olwianwtx-ricrdomedina.vercel.app/,
+  new workbox.strategies.NetworkFirst({ cacheName: "api", plugins: [] }),
+  "GET"
+);
