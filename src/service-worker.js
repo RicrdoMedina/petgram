@@ -32,7 +32,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(
-  /https:\/\/petgram-server-ricrdomedina-olwianwtx-ricrdomedina.vercel.app/,
+  /https:\/\/petgram-server-ricrdomedina.vercel.app/,
   new workbox.strategies.NetworkFirst({ cacheName: "api", plugins: [] }),
   "GET"
 );

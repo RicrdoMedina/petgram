@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import {Link as LinkRouter} from '@reach/router'
+import styled, { css } from "styled-components";
+import { Link as LinkRouter } from "@reach/router";
 
 export const Nav = styled.nav`
   position: fixed;
@@ -9,23 +9,26 @@ export const Nav = styled.nav`
   top: 128px;
   left: 0;
   padding: 1em;
-  background: rgba(0,0,0,0.94);
+  background: rgba(0, 0, 0, 0.94);
   text-align: center;
   display: none;
   right: 0;
   bottom: 0;
   margin: auto;
-  ${props => props.showMenu && css`
-    {
-      display: block;
-    }
-  `}
-`
+
+  ${(props) =>
+    props.showMenu &&
+    css`
+       {
+        display: block;
+      }
+    `}
+`;
 
 export const Link = styled(LinkRouter)`
   display: inline-flex;
   margin: 1em;
-`
+`;
 
 export const Image = styled.img`
   overflow: hidden;
@@ -35,4 +38,4 @@ export const Image = styled.img`
   width: 95px;
   border-radius: 50%;
   box-shadow: 0px 0px 7px #5f5656;
-`
+`;

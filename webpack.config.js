@@ -36,7 +36,7 @@ module.exports = {
       runtimeCaching: [
         {
           urlPattern: new RegExp(
-            "petgram-server-ricrdomedina-olwianwtx-ricrdomedina.vercel.app"
+            "https://petgram-server-ricrdomedina.vercel.app"
           ),
           handler: "NetworkFirst",
           options: {

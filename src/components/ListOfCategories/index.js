@@ -12,9 +12,7 @@ function useCategoriesData() {
     if (categories.length === 0) {
       setLoadingCategories(true);
       window
-        .fetch(
-          "https://petgram-server-ricrdomedina-olwianwtx-ricrdomedina.vercel.app/categories"
-        )
+        .fetch("https://petgram-server-ricrdomedina.vercel.app/categories")
         .then((res) => res.json())
         .then((response) => {
           setCategories(response);

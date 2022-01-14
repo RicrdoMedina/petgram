@@ -4,11 +4,11 @@ import { ListOfCategories } from '../components/ListOfCategories'
 import { PhotosWithQuery } from '../container/GetPhotos'
 import { Layout } from '../components/Layout'
 
-const HomePage = ({id}) => {
+const HomePage = ({ id }) => {
   return (
     <Layout title='Tu app de fotos de mascotas' subtitle='Aquí encontraras fotos de animales domésticos'>
-      <ListOfCategories/>
-      <PhotosWithQuery categoryId={id}/>
+      <ListOfCategories />
+      <PhotosWithQuery categoryId={id} />
     </Layout>
   )
 }

@@ -19,3 +19,4 @@ export const Layout = ({ children, title, subtitle, hiddenTitle = false}) => {
     </Div>
   </Fragment>)
 }
+

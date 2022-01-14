@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.702bc9085423df51c06666fbb51d84e1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.d8344656e08cc1c58f4eb4af96cfd223.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.910ecc3771dda9d51943ed8618406eb2.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.6b15e22035374541faaa18832e8fa0be.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.e50291ecbbf2ecadce940159965e04da.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.9156101f76997978f462ba0259757f7c.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Petgram - Tu app de fotos de mascotas",
+  "short_name": "Petgram",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Con Petgram puedes encontrar las mejores mascotas domesticas",
+  "background_color": "#fff",
+  "theme_color": "#b1a"
+}

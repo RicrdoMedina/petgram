@@ -10,9 +10,9 @@ export default () => {
   const { removeAuth } = useContext(Context)
   const [name, setName] = useLocalStorage('nameAndLastname', true)
   const [email, setEmail] = useLocalStorage('email', true)
- 
+
   return <Layout title='Mis datos' hiddenTitle={true}>
-      <Avatar/>
-      <Form disebled={true} inputs={templateProfile(name,email)} title='Mis datos' onSubmit={removeAuth} submitTitle='Cerrar sesión'/>
-    </Layout>
+    <Avatar />
+    <Form disebled={true} inputs={templateProfile(name, email)} title='Mis datos' onSubmit={removeAuth} submitTitle='Cerrar sesión' />
+  </Layout>
 }
