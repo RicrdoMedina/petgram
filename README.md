@@ -4,7 +4,7 @@ Este repositorio contiene una app sencilla para ver fotos de mascotas, desarroll
 
 ![Captura de la App](./readme-static/captura.jpg)
 
-[Ver la aplicación](https://react-advanced-rcrdmedina.ricrdomedina.now.sh/)
+[Ver la aplicación](https://react-advanced-rcrdmedina-oibkzmh6p-ricrdomedina.vercel.app/)
 
 ## Cómo funciona?
 
